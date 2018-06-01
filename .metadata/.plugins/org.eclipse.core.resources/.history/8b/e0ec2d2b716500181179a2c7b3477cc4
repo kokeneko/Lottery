@@ -1,0 +1,24 @@
+package lottery;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number;
+		String[] members = {null};
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("人数を入力:");
+		number = scan.nextInt();
+
+		for (int i = 0; i < number; i++) {
+			System.out.println(i + "人目:");
+			members[i] = scan.next();
+
+		}
+		scan.close();
+	}
+
+}

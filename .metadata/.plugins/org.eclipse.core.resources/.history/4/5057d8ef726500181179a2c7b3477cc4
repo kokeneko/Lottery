@@ -1,0 +1,40 @@
+package lottery;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number;
+		int max;
+		int i;
+		String[] members = {null};
+		int[]  points = {0};
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("人数を入力:");
+		number = scan.nextInt();
+
+		for (i = 0; i < number; i++) {
+			System.out.println(i + "人目:");
+			members[i] = scan.next();
+
+		}
+		scan.close();
+
+		Random random = new Random();
+
+		for (i = 0; i < 1000; i++) {
+			points[random.nextInt() % number]++;
+		}
+
+		for (i = 0; i < number; i++) {
+			max
+		}
+
+
+	}
+
+}

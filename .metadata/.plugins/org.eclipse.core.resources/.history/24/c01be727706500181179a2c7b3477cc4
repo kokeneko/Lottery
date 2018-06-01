@@ -1,0 +1,9 @@
+package lottery;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(system.in);
+	}
+
+}
