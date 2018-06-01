@@ -19,7 +19,7 @@ public class Main {
 		int[]  points = new int[number];
 
 		for (i = 0; i < number; i++) {
-			System.out.println(i + 1 + "人目:");
+			System.out.print(i + 1 + "人目:");
 			members[i] = scan.next();
 		}
 		scan.close();
@@ -38,7 +38,7 @@ public class Main {
 		}
 
 		for (i = 0; i < number; i++) {
-			System.out.print(members[i] + ";" + points[i] + " ");
+			System.out.print(members[i] + ";" + points[] + " ");
 		}
 		System.out.println();
 
